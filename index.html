@@ -21,11 +21,112 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <!-- header starts here -->
-    <header></header>
-    <!-- main starts here -->
-    <main></main>
-    <!-- footer starts here -->
-    <footer></footer>
+    <!-- Main content -->
+    <main class="max-w-screen-lg mx-auto px-16 lg:px-24">
+      <!-- header starts here -->
+      <header class="lg:flex pt-10 mb-20">
+        <div>
+          <h1 class="text-5xl md:text-7xl mb-10">
+            It's good <br />
+            tea time at The <br />Tea House
+          </h1>
+          <p class="text-gray-500 mb-5">
+            Tea and Botanical Solutions Supplier Give Optimum <br />Satisfaction
+            To Your Taste Buds.
+          </p>
+          <button
+            class="bg-gradient-to-r from-orange-500 to-red-600 text-white px-5 py-3 rounded-lg text-lg font-semibold"
+          >
+            Explore More
+            <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
+          </button>
+        </div>
+        <!-- Image content -->
+        <div class="relative">
+          <!-- Image -->
+          <div>
+            <img class="w-full" src="./images/banner.png" alt="" />
+          </div>
+          <!-- card -->
+          <div
+            class="absolute flex items-center shadow-lg bg-white rounded-md px-2 py-2 md:px-10 lg:py-4 top-28 md:top-50 lg:top-55 lg:left-20"
+          >
+            <!-- Star Icon -->
+            <div>
+              <i class="fa-solid fa-star text-amber-500 text-2xl"></i>
+            </div>
+            <!-- Text -->
+            <div class="ml-2">
+              <h2 class="text-2xl font-bold">5.00</h2>
+              <p class="text-gray-400">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- main starts here -->
+      <main>
+        <!-- feature section -->
+        <section class="py-12 lg:py-22">
+          <div class="text-center mb-8">
+            <h2 class="text-[30px] md:text[35px] lg:text-[42px] font-semibold">
+              Our Featured Products
+            </h2>
+            <p class="text-sm text-gray-500 max-w-lg mx-auto">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+          </div>
+          <!-- Card-container -->
+          <div
+            class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center"
+          >
+            <!-- card 1-->
+            <div class="drop-shadow-md bg-gray-50 rounded-lg overflow-hidden">
+              <img class="mx-auto pt-4" src="./images/tea-1.png" alt="" />
+              <div class="p-4">
+                <h3 class="text-xl font-semibold">Milk Tea</h3>
+                <p class="text-sm text-gray-500">
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="drop-shadow-md bg-gray-50 rounded-lg overflow-hidden">
+              <img class="mx-auto pt-4" src="./images/tea-2.png" alt="" />
+              <div class="p-4">
+                <h3 class="text-xl font-semibold">Milk Tea</h3>
+                <p class="text-sm text-gray-500">
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="drop-shadow-md bg-gray-50 rounded-lg overflow-hidden">
+              <img class="mx-auto pt-4" src="./images/tea-3.png" alt="" />
+              <div class="p-4">
+                <h3 class="text-xl font-semibold">Milk Tea</h3>
+                <p class="text-sm text-gray-500">
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div class="drop-shadow-md bg-gray-50 rounded-lg overflow-hidden">
+              <img class="mx-auto pt-4" src="./images/tea-4.png" alt="" />
+              <div class="p-4">
+                <h3 class="text-xl font-semibold">Milk Tea</h3>
+                <p class="text-sm text-gray-500">
+                  Creamer could be replaced by fresh milk
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- footer starts here -->
+      <footer></footer>
+    </main>
   </body>
 </html>
